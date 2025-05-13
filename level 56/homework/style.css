@@ -1,0 +1,17 @@
+#a {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    transition: 2s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#a:active {
+    background-color: aqua;
+}

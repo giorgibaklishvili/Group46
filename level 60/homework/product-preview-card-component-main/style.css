@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%) ; 
+}
+
+.parent{
+    display: flex;
+}
+
+.card1{
+    width: 300px;
+
+}
+.card2{
+    width: 300px;
+    background-color:  hsl(0, 0%, 100%);
+    text-align: center;
+    ;
+}
+img{
+    width: 300px;
+}
+p{
+    font-family: "Montserrat", serif;
+}
+.price1{
+    font-size: 25px ;
+    color: hsl(158, 36%, 37%) ;
+}
+.price2{
+
+    font-size: 15px;
+    text-decoration:line-through;
+    font-weight: 100;
+}
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: 2px hsl(158, 36%, 37%) solid;
+    color: white;
+    padding: 10px 60px;
+
+}
+

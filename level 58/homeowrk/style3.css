@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#c {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    animation:gio 3s ;
+}
+
+
+@keyframes gio {
+    0% {    width: 100px;
+        height: 100px;
+        background: red;
+        bottom: 0;}
+    
+    100% {bottom: 80%; transform: scale(2); background: yellow;}
+}

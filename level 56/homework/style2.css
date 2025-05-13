@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#b {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+}
+
+#c {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    transition: 3s;
+}
+
+#b:hover {
+    transform: rotate(180deg);
+}
+
+#c:hover {
+    background-color: blueviolet;
+}

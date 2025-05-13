@@ -1,0 +1,35 @@
+div {
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation-name: bakala;
+    animation-duration: 6s;
+    animation-timing-function: 6s;
+    position: relative;
+}
+
+
+@keyframes bakala {
+    0% {
+        background-color: orange;
+    }
+
+    33% {
+        background-color: red;
+        border-radius: 15px;
+        top: 40px;
+    }
+
+    66% {
+        background-color: green;
+        border-radius: 20px;
+        right: 60px;
+
+    }
+
+    100% {
+        background-color: orange;
+    }
+}
+
