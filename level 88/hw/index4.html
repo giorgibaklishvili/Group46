@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter Example</title>
+</head>
+<body>
+  <button id="btn">Click me</button>
+
+  <script>
+    
+    let num = 0;
+
+    const button = document.getElementById("btn");
+
+    button.addEventListener("click", function() {
+      num += 2; 
+      console.log(num);
+    });
+  </script>
+</body>
+</html>

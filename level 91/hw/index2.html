@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Object Example</title>
+</head>
+<body>
+  <button id="btn">Click me</button>
+
+  <script>
+
+    const button = document.getElementById("btn");
+
+    button.addEventListener("click", function(event) {
+      console.log("მოვლენის ტიპი:", event.type);
+      console.log("რომელ ელემენტზე მოხდა:", event.target); 
+      console.log("მაუსის X პოზიცია:", event.clientX); 
+      console.log("მაუსის Y პოზიცია:", event.clientY); 
+    });
+  </script>
+</body>
+</html>

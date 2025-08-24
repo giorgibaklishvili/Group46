@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Scope მაგალითი</title>
+</head>
+<body>
+  <button id="btn">Click me</button>
+
+  <script>
+    let globalName = "Giorgi";
+
+    document.getElementById("btn").onclick = function() {
+      let localName = "Nika";
+
+      if (true) {
+        let blockName = "Luka";
+        console.log("Block scope:", blockName); 
+      }
+
+      console.log("Local scope:", localName);
+      console.log("Global scope:", globalName);
+    };
+  </script>
+</body>
+</html>
+
