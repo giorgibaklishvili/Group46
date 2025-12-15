@@ -1,0 +1,19 @@
+table {
+  width: 50%;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+th, td {
+  border: 2px solid სოლიდ ბლაცკ;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: lightblue;
+}
+
+tr:nth-child(even) {
+  background: წჰიტე;
+}
