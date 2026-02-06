@@ -1,0 +1,89 @@
+body{
+    background-color: #5fbfff;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+#maindiv{
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; 
+    display: grid;
+}
+
+#div1{
+    background-color:white;
+    grid-row: 2;
+    grid-column:2;
+    border-radius: 20px;
+    grid-column-end: 7;
+    grid-row-end: 8;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#div_img{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    margin-left: 165px;
+}
+#div2{
+    background-color: white;
+    grid-column: 8;
+    grid-row: 2;
+    grid-row-end:5;
+    grid-column-end: 16;
+    border-radius: 10px;
+}
+#div3{
+    background-color:white;
+    grid-column: 8;
+    grid-row: 6;
+    grid-row-end: 8;
+    grid-column-end: 10;
+    border-radius:20px;
+}
+#div4{
+    background-color:white;
+    grid-column: 11;
+    grid-row: 6;
+    grid-row-end: 8;
+    grid-column-end: 13;
+    border-radius:20px;
+}
+#div5{
+    background-color:white;
+    grid-column: 14;
+    grid-row: 6;
+    grid-row-end: 8;
+    grid-column-end: 16;
+    border-radius:20px;
+}
+#temperature{
+    background-color: #5fbfff;
+    color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 150px;
+    margin-left: 175px;
+    display: flex;
+}
+
+
+#div3:hover{
+    background-color: #93d4ff;
+    color: white;
+    transition: 0.2s;
+}
+
+#div4:hover{
+    background-color: #93d4ff;
+    color: white;
+    transition: 0.2s;
+}
+
+#div5:hover{
+    background-color: #93d4ff;
+    color: white;
+    transition: 0.2s;
+}

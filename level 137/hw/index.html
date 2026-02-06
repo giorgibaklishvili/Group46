@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #container{
+            display: flex;
+            align-items: center;
+        }
+        .div1 {
+            display: flex;
+            background-color: blueviolet;
+            height: 250px;
+            width: 250px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border-radius: 10%;
+            margin: 50px;
+        }
+
+        #btn1 {
+            background: rgb(63, 9, 114);
+            color: white;
+            display: flex;
+            width: 45px;
+            height: 40px;
+            justify-content: center;
+            border-radius: 10px;
+            font-size: xx-large;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div contenteditable="true" class="div1"></div>
+        <button id="btn1"> + </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const container = document.getElementById("container")
+        const btn1 = document.getElementById('btn1');
+
+        btn1.addEventListener('click', (e) => {
+            e.preventDefault();
+            const textadd = document.createElement("div");
+            textadd.classList.add("textadd")
+            textadd.contentEditable = "true"
+            container.appendChild(textadd)
+            textadd.style.backgroundColor = 'blueviolet';
+            textadd.style.height = '250px';
+            textadd.style.width = '250px';
+            textadd.style.borderRadius = "10%"
+            textadd.style.margin = "50px"
+        });
+    </script>
+</body>
+</html>
