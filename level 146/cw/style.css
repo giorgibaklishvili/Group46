@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+/* Header */
+.main-header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.main-header h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.categories span {
+    margin: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categories sup {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 40px;
+    gap: 20px;
+}
+
+.image-grid-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.art-card img {
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.featured-image-column {
+    flex: 1;
+    position: relative;
+}
+
+.featured-image-column img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Info Card Overlap */
+.info-card {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.update-btn {
+    border: 1px solid #ccc;
+    background: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
