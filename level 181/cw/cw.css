@@ -1,0 +1,36 @@
+
+body {
+  background: radial-gradient(#1a2a4a, #0b1120);
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calc-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #55aaff;
+  background: linear-gradient(135deg, #a6d5ff, #73b3ff);
+  box-shadow: 0 0 12px #73b3ff;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 15px;
+  outline: none;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
